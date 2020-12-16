@@ -18,9 +18,9 @@ function setup() {
   foodStock = database.ref('Food');
   foodStock.on("value", readStock);
 
-  dog = createSprite(800, 200, 150, 150);
+  dog = createSprite(750, 200, 150, 150);
   dog.addImage(sadDog);
-  dog.scale = 0.15;
+  dog.scale = 0.35;
 
   feed = createButton("Feed the dog");
   feed.position(700, 95);
